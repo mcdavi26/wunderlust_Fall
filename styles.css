@@ -1,0 +1,165 @@
+body, h1, h2, h3, p, ul, li, figure, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00bfd8;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #888;
+}
+
+#testimonials {
+    margin-top: 40px;
+}
+
+#testimonials h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#testimonials div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#testimonials section {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#testimonials h4 {
+    font-size: 18px;
+}
+
+#testimonials p {
+    color: #555;
+}
+
+#contact {
+    margin-top: 40px;
+}
+
+#contact h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#contact label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+    background-color: #00bfd8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0091a8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #00bfd8;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}

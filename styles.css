@@ -20,6 +20,25 @@ time, mark, audio, video {
 
 }
 
+.skip-link {
+    position: absolute;
+    top: -9999px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+.skip-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
